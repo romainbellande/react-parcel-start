@@ -4,22 +4,46 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start": "node ./bundler.js",
     "build": "npm run build-css && parcel build src/index.html"
   },
   "dependencies": {
+    "@types/history": "^4.6.2",
+    "@types/lodash": "^4.14.99",
+    "@types/react": "^16.0.36",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-form": "^2.12.0",
+    "@types/react-redux": "^5.0.14",
+    "@types/react-router": "^4.0.21",
+    "@types/react-router-redux": "^5.0.11",
+    "@types/redux-logger": "^3.0.5",
+    "es6-promise": "^4.2.4",
+    "history": "^4.7.2",
+    "lodash": "^4.17.4",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-form": "^2.16.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^0.17.0",
+    "rxjs": "^5.5.6"
   },
   "devDependencies": {
-    "@types/react": "^16.0.34",
-    "@types/react-dom": "^16.0.3",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4",
     "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2",
     "parcel-bundler": "^1.4.1",
     "rollup": "^0.54.0",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.4.0",
     "typescript": "^2.6.2"
   }
 }
